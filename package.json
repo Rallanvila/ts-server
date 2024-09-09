@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "nodemon --watch src -e ts --exec \"npx ts-node src/index.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
